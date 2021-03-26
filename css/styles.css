@@ -322,8 +322,6 @@ progress {
   .l-header {
     display: flex;
     justify-content: space-between;
-    grid-column-start: 1;
-    grid-column-end: 2;
     width: 100%;
     height: 100%;
   }
@@ -410,9 +408,8 @@ progress {
   .global-nav {
     grid-column-start: 2;
     grid-column-end: 3;
-    width: 20%;
-    right: 0;
-    height: 100%;
+    width: 100%;
+    position: static;
   }
 }
 
@@ -532,8 +529,9 @@ progress {
 
 @media (min-width: 1200px) {
   .Hamburger {
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 2;
+    width: 100%;
   }
 }
 
@@ -552,6 +550,14 @@ progress {
   }
 }
 
+@media (min-width: 1200px) {
+  .p-service {
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}
+
 .p-service__box {
   position: relative;
   background-image: url(../image/three-burgers-on-brown-wooden-tray-between-white-ceramic-1841108.png);
@@ -565,13 +571,6 @@ progress {
     width: 100%;
     height: 700px;
     margin: 10px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .p-service__box {
-    grid-column-start: 3;
-    grid-column-end: 2;
   }
 }
 
@@ -639,7 +638,7 @@ progress {
 .container {
   background-color: #9D8670;
   height: 150px;
-  width: 100px;
+  width: 100%;
   color: #fff;
   text-align: center;
 }
@@ -660,7 +659,6 @@ progress {
     display: grid;
     grid-template-rows: 217px 530px 1447px 150px;
     grid-template-columns: auto 367px;
-    grid-auto-flow: column;
   }
 }
 /*# sourceMappingURL=styles.css.map */
