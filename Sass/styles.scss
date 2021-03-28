@@ -3,11 +3,11 @@
 
 
 body {
-  // .nav-open {
-  //   position: fixed;
+  &.nav-open {
+    position: fixed;
     
-  // }
- position: fixed;
+  }
+//  position: fixed;
   overflow-x: hidden;
   
  }
@@ -105,7 +105,7 @@ height: 217px;
   right: -320px; /* これで隠れる */
   top: 0;
   width: 300px; /* スマホに収まるくらい */
-  height: 1826px;
+  height:1826px;
   padding-top: 40px;
   background-color: #F2EDE9;
   transition: all .6s;
@@ -131,13 +131,13 @@ position: static;
   }
  
   &.nav-open {
-    
+   
     transition:  .6s;
     right: 0;
   }
 }
 .global-nav__list {
- height: 100%;
+  
   text-align: left;
   color: #707070;
   margin-bottom: 40px;

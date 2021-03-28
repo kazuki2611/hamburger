@@ -312,8 +312,11 @@ progress {
 }
 
 body {
-  position: fixed;
   overflow-x: hidden;
+}
+
+body.nav-open {
+  position: fixed;
 }
 
 .l-header {
@@ -435,7 +438,6 @@ body {
 }
 
 .global-nav__list {
-  height: 100%;
   text-align: left;
   color: #707070;
   margin-bottom: 40px;
