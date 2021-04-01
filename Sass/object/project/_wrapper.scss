@@ -1,0 +1,16 @@
+.p-wrapper {
+  @include breakpoint (pc) {
+  width: 100%;
+    display: grid;
+    // 縦
+    grid-template-rows: 2843px 150px;   
+    // grid-template-rows: 217px 530px 1000px 150px;   
+   //  横
+   grid-template-columns: 1fr 367px;  
+  //  grid-template-areas: ;
+  // grid-auto-flow:column ;
+  
+  
+  }
+
+}

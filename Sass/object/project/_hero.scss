@@ -1,0 +1,21 @@
+.p-hero {
+  position: relative;
+  height:285px;
+  background-image: url(../image/3ba5a44414bb3c0885c27ff614596431.png);
+  background-size: cover ;
+  background-position: center;
+  width: auto;
+  @include breakpoint (pc) {
+   
+height: 530px;
+  width: 100%;
+  }
+    
+  
+ h1 {
+   position: absolute;
+   color: $title-color;
+   top: 50%;
+   left: 10%;;
+ }  
+}

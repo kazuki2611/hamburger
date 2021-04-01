@@ -12,15 +12,18 @@
 $(function() {
     //(header)//c-button--global-menu
     $(".p-hamburger_button").click(function() {
-       $("body").addClass("nav-open");
-       $(".p-hamburger").addClass("nav-open");
-       $(".global-nav").addClass("nav-open");
+       $("body").addClass("is-open");
+       $(".p-hamburger").addClass("is-open");
+       $(".p-global-nav").addClass("is-open");
    })
     $(".is-hamburger").click(function() {
-       $("body").removeClass("nav-open")
-       $(".p-hamburger").removeClass("nav-open")
-       $(".global-nav").removeClass("nav-open")
+       $("body").removeClass("is-open")
+       $(".p-hamburger").removeClass("is-open")
+       $(".p-global-nav").removeClass("is-open")
     })
+    $(window).resize(function() {
+      $("body,.p-global-nav,.p-hamburger").removeClass("is-open");
+  });
  });
 
  
@@ -37,4 +40,6 @@ $(function() {
    
  
  
- 
+//  $(window).resize(function() {
+//    $(".p-nav__list").css('display','');
+// });

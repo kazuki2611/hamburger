@@ -1,0 +1,6 @@
+.u-top {
+  top: 70%;
+  @include breakpoint (pc) {
+    top: 80%;
+  }
+  }

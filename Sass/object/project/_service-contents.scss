@@ -1,0 +1,16 @@
+.p-service-contents {
+  padding: 10px;
+  position: absolute;
+  top: 40%;
+  background-color: rgba(255, 255, 255, 0.8);
+
+  
+  margin: 0 10px 10px 10px;
+ @include breakpoint(pc) {
+  
+   top: 60%;
+
+ }
+  
+  
+}
