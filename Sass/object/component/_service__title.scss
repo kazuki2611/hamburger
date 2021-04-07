@@ -2,7 +2,18 @@
   position: absolute;
   color: $title-color;
   font-size: 41px;
-  top: 10%;
-  left: 10%;
+  margin: 11px 0 0 10px;
   
+ 
+  @include breakpoint (tablet) {
+    font-size: 44px;
+    margin: 12px 0 0 11px;
+  }
+  @include breakpoint (pc) {
+    font-size: 400%;
+    white-space: nowrap;
+    
+    margin : 20px 0 0 19px;
+
+  }
 }

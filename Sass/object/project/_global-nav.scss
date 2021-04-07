@@ -1,11 +1,11 @@
 .p-global-nav {
   position: fixed;
  
-  right: -320px; /* これで隠れる */
+  right: -87%; /* これで隠れる */
   top: 0;
-  width: 300px; /* スマホに収まるくらい */
+  width: 87%; /* スマホに収まるくらい */
   height: 100%;
-  padding-top: 40px;
+  // padding-top: 40px;
   background-color: #F2EDE9;
   transition: all .6s;
   z-index: 200;
@@ -13,13 +13,14 @@
   // height: 100vh;
   
   @include breakpoint(tablet) {
-   
+   width: 367px;
+   right: -367px;
   }
   @include breakpoint (pc) {
   //  grid-column-start:2 ;
   //  grid-column-end:3 ;
- padding-top: 100px;
-   width: 360px;
+ padding-top: 216px;
+   width: 367px;
 height: 2843px;
 
 position: static;
@@ -36,13 +37,16 @@ position: static;
   }
 }
 .p-global-nav__list {
-  
+  font-size: 24px;
+  padding:34px 0 0 46px ;
   text-align: left;
   color: $text-color;
-  margin-bottom: 40px;
-  margin: 0 0 40px 40px;
-  
-  
+  // margin-bottom: 40px;
+  // margin: 0 0 40px 46px;
+  font-family: 'M+ Type-1 (general-j) bold';
+  @include breakpoint (pc) {
+   
+  }
 }
 .is-open .black-bg {
   opacity: .8;

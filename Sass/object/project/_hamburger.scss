@@ -71,14 +71,22 @@
 
 
 .p-hamburger_button {
+  font-family:  'Roboto';
   color: $text-color;
 font-size: 20px;
 font-weight: bold;
 position: absolute;
-right: 10px;
-top:20px;
+right: 16px;
+top:14px;
+@include breakpoint (tablet) {
+  font-size: 34px;
+  top: 18px;
+  right: 26px;
+}
 @include breakpoint(pc) {
-  right: 250px;
+  right: 235px;
+  top: 82px;
+  font-size: 34px;
 }
 
 }

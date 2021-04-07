@@ -1,14 +1,22 @@
 .p-service-contents {
-  padding: 10px;
-  position: absolute;
-  top: 40%;
-  background-color: rgba(255, 255, 255, 0.8);
 
-  
+height: 163px;
+  position: absolute;
+  // top: 0px;
+  top: 297px;
+  background-color: rgba(255, 255, 255, 0.8);
+padding: 10px;
+overflow: hidden;
   margin: 0 10px 10px 10px;
+  @include breakpoint (tablet) {
+padding: 0;
+    top: 316px;
+    height: 172px;
+  }
  @include breakpoint(pc) {
-  
-   top: 60%;
+   overflow: hidden;
+ height: 174px;
+   top: 805px;
 
  }
   
