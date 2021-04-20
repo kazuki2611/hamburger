@@ -14,7 +14,7 @@ $(function() {
     $(".p-hamburger_button").click(function() {
        $("body").addClass("is-open");
        $(".p-hamburger").addClass("is-open");
-       $(".p-global-nav").addClass("is-open");
+       $(".p-global-nav ").addClass("is-open");
    })
     $(".is-hamburger").click(function() {
        $("body").removeClass("is-open")

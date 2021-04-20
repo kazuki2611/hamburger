@@ -9,3 +9,14 @@ body {
   overflow-x: hidden;
   
  }
+ @font-face {
+  font-family: 'M+ 1m bold';
+  src: url('../fonts/mplus-1m-bold-sub.eot');
+  src: url('../fonts/mplus-1m-bold-sub.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/mplus-1m-bold-sub.woff') format('woff'),
+  url('../fonts/mplus-1m-bold-sub.ttf') format('truetype');
+}
+
+body {
+  font-family: 'M+ 1m bold';
+}

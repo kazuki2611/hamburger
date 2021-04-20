@@ -44,73 +44,55 @@
 @import "object/utility/color";
 
 @import "object/utility/size";
-.c-service__titile__bar {
-  
-    position:absolute;
-    top:75.3px;
-    width: 33.89px;
-    border: solid 2px;
-    left: 3.5px;
-    color: $title-color;
-    @include breakpoint (tablet)  {
-      
- width: 35.94px;
-  top: 91.6px;
-  left: 15.1px;
-    }
-  
-  @include breakpoint (pc) {
-    top: 160.5px;
-    left: 26.5px;
-    width: 63px;
-  }
- 
-}
-.u-border {
-  display: none;
-  @include breakpoint (tablet) {
-    display: block;
-  }
-  &__2 {
-   top: 102px;
-   left: 42.5px;
-  
-   width: 75px;
-   border: solid 1px;
-   @include breakpoint (pc) {
-     top: 189.5px;
-     left: 119.5px;
-   }
-   
-  }
-  &__3 {
-    @include breakpoint (tablet) {
-      top: 79.5px;
-      left: 3.3px;
-    }
-    @include breakpoint (pc) {
-    top: 140.5px;
-    }
-  }
-}
-.p-global-nav__wrap {
- padding: 40px 0 0 20px;
- @include breakpoint (tablet) {
-padding-top: 40px;
- }
-}
-.u-padding {
-  padding: 216px 0 0 46px;
-  @include breakpoint (tablet) {
-    padding: 212px 0 0 46px;
-  }
-  @include breakpoint (pc) {
-    padding: 212px 0 0 46px;
-  }
-  @include breakpoint (pc) {
-    padding: 0 0 0 46px;
-  }
-}
-.u-padding2 a {
-  padding: 0;
-}
+@import "object/component/service__titile__bar";
+@import "object/utility/border";
+@import "object/project/grobal-nav__wrap";
+@import "object/utility/padding";
+
+
+
+
+
+@import "object/component/header__titile";
+
+
+@import "object/project/menu-box";
+@import "object/project/page";
+
+@import "object/component/page__button";
+@import "object/utility/margin";
+@import "object/component/menu__button";
+@import "object/component/menu__title";
+@import "object/component/menu__text";
+@import "object/component/headline";
+
+
+
+@import "object/project/blockquote";
+
+@import "object/component/blockquote";
+
+
+@import "object/component/menu__picture";
+
+@import "object/component/menu-box__text";
+@import "object/component/menu-box__picture";
+@import "object/project/list";
+@import "object/project/table";
+@import "object/component/menu__list";
+@import "object/project/service__wrap";
+@import "object/component/text__bold";
+@import "object/utility/text";
+
+
+
+
+
+
+
+
+
+
+
+
+
